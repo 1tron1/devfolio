@@ -7,9 +7,9 @@
   "dependencies": {
     "gatsby": "^5.12.12",
     "gatsby-image": "^3.11.0",
-    "gatsby-plugin-image": "^3.12.3",
     "gatsby-plugin-feed": "^5.12.3",
     "gatsby-plugin-google-analytics": "^5.12.0",
+    "gatsby-plugin-image": "^3.12.3",
     "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-offline": "^6.12.3",
     "gatsby-plugin-postcss": "^6.12.0",
@@ -23,6 +23,7 @@
     "gatsby-source-filesystem": "^5.12.1",
     "gatsby-transformer-remark": "^6.12.3",
     "gatsby-transformer-sharp": "^5.12.3",
+    "ghpages": "^0.0.10",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "postcss": "^8.4.31",
