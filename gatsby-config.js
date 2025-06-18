@@ -1,71 +1,73 @@
 module.exports = {
   siteMetadata: {
-    // Site URL for when it goes live
     siteUrl: `https://monumental-chimera-b1ace3.netlify.app/`,
-    // Your Name
     name: 'Daniel McCormack',
-    // Main Site Title
     title: `Daniel McCormack | Engineering Leader`,
-    // Description that goes under your name in main bio
-    description: `Let's build something awesome.`,
-    // Optional: LinkedIn account URL
+    description: `Transformational product & engineering executive building platforms, teams, and AI-enabled products from zero to scale.`,
     linkedin: `https://www.linkedin.com/in/daniel-j-mccormack/`,
-    // Content of the About Me section
-    about: `I build products & teams.`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    about: `I build world-class products and engineering organizations across healthcare, e-commerce, biotech, and government. From FDA-cleared medical devices to 100M+ scale consumer systems, I align technology strategy with business outcomes.`,
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Podimetrics',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'AI-driven diabetic foot care platform combining FDA-regulated medical IoT, LLM-based workflows, and internal clinical tools.',
       },
       {
-        name: 'ExtensionKit',
+        name: 'EcoCart',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://extensionkit.io/?ref=devfolio',
+          'Climate impact platform with API ecosystem and Shopify integration used by Walmart and Saks; acquired by Frate Returns.',
       },
       {
-        name: 'Another Cool Project',
+        name: 'BrainSpec',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'FDA-cleared neuroimaging ML pipeline deployed at top medical institutions; built HIPAA-compliant systems and models.',
       },
     ],
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Podimetrics',
+        description: 'Interim CIO / Head of Technology, 2024–2025',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'BrainSpec',
+        description: 'Technology & Operations Consultant, 2023–2024',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'EcoCart',
+        description: 'Director of Engineering, 2021–2023',
+      },
+      {
+        name: 'MXTR Automation',
+        description: 'Director of Engineering, 2020–2021',
+      },
+      {
+        name: 'Gritstone Oncology',
+        description: 'Lead Special Project Engineer, 2019–2020',
+      },
+      {
+        name: 'BluCloud',
+        description: 'Co-Founder & CTO, 2017–2019',
+      },
+      {
+        name: 'BrainSpec',
+        description: 'Founding CTO, 2014–2017',
       },
     ],
-    // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Leadership & Strategy',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Org design, product & engineering management, technical due diligence, roadmap alignment, M&A support.',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Cloud & Infrastructure',
+        description:
+          'AWS, GCP, Azure, DynamoDB, containerization, distributed systems, DevOps culture.',
       },
       {
-        name: 'Other',
+        name: 'AI, ML, & Healthcare',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Clinical ML pipelines, LLM integration, FDA 510(k), HIPAA compliance, MedTech innovation.',
       },
     ],
   },
@@ -177,7 +179,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+        trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
     {
@@ -187,7 +189,7 @@ module.exports = {
         short_name: `devfolio`,
         start_url: `/`,
         background_color: `#663399`,
-        theme_color: `#663399`, // This color appears on mobile
+        theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
       },
